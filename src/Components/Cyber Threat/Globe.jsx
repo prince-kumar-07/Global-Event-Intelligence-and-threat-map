@@ -16,13 +16,11 @@ function Earth() {
 
   return (
     <group ref={earthRef}>
-      {/* Earth */}
       <mesh>
         <sphereGeometry args={[1, 64, 64]} />
         <meshStandardMaterial map={texture} />
       </mesh>
 
-      {/* Cyber grid */}
       <mesh>
         <sphereGeometry args={[1.01, 64, 64]} />
         <meshBasicMaterial
@@ -33,7 +31,6 @@ function Earth() {
         />
       </mesh>
 
-      {/* Atmospheric glow */}
       <mesh>
         <sphereGeometry args={[1.08, 64, 64]} />
         <meshBasicMaterial color="#00ffff" transparent opacity={0.05} />
