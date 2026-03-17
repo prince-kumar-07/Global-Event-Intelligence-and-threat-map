@@ -3,9 +3,9 @@ import { useParams } from "react-router-dom";
 import ReactCountryFlag from "react-country-flag";
 import { geoMercator, geoPath } from "d3-geo";
 import styles from "./CountryView.module.css";
-import CountryDetails from "../Country View/CountryDetails";
-import LiveEvents from "../Country View/LiveEvents";
-import LiveStreams from "../Country View/Livestreams";
+import CountryDetails from "./CountryDetails";
+import LiveEvents from "./LiveEvents";
+import LiveStreams from "./Livestreams";
 import { CountryContext } from "../../Context/countryContext";
 
 const MAP_W = 420;
