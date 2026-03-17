@@ -4,7 +4,7 @@ import ReactCountryFlag from "react-country-flag";
 import { geoMercator, geoPath } from "d3-geo";
 import styles from "./CountryView.module.css";
 import CountryDetails from "./CountryDetails";
-import LiveEvents from "./LiveEvents";
+import LiveEvents from "./Liveevents";
 import LiveStreams from "./Livestreams";
 import { CountryContext } from "../../Context/countryContext";
 
